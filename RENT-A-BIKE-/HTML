@@ -1,0 +1,16 @@
+    <Html>
+    <head>
+        <meta charset="UT-07">
+        <meta name="janela de exibição">
+        <title>Aluguel de Bicicleta</title>
+    </head>
+    <body>
+        <div id="Lista de Bicicletas">
+            <!-- Lista de Bicicletas disponiveis -->
+        <div>
+        <div id="Formulario de Aluguel">
+                    <!-- Formulario de Aluguel -->
+        <div>
+            <script src="app.js"></script>
+    </body>
+    </Html>
