@@ -21,14 +21,14 @@ function alugarBike(id) {
     if (bike && bike.available) {
         bike.available = false;
         bikesNaLista();
-        alert('Você alugou a ${bike.model});
+        alert('Você alugou a ${bike.model}');
     } else {
         alert('Essa bike não está disponivel para aluguel');
     }
 }
 
 window.onload = function()
-    bikesNaLista();
+    {bikesNaLista();}
 
     document.getElementById('listaDeBikes').addEventListener('click', function(event) {
         const bikeId = parseInt(event.target.getAttribute('data-id'));
@@ -36,4 +36,4 @@ window.onload = function()
             alugarBike(bikeId);
         }
     });
- };
+
